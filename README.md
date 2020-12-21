@@ -169,7 +169,7 @@ Then set it in files such as:
 
 Run the script `<path-of-repo>/socialNetwork/openshift/scripts/deploy-all-services-and-configurations.sh`
 
-### 10. Use an SSH tunnel expose nginx-thrift service
+### 10. Use an SSH tunnel to expose nginx-thrift service
 
  - Use `kubectl -n social-network get svc nginx-thrift` to get the nginx-thrift NodePort.
 
