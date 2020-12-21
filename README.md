@@ -217,4 +217,4 @@ Don't use compose posts script, it doesn't work beacuse of a unresolved issue.
 
 ## Metrics-server
 
-To run metrics-server, deploy the components.yaml file in the kube-system namespace of your cluster.
+To run metrics-server, deploy the `components.yaml` file in the `kube-system` namespace of your cluster.
