@@ -143,7 +143,7 @@ When you have your right configuration, finally build the cluster:
 kops update cluster ${NAME} --yes
 ```
 
-This will take a while, use the following commando to know when your cluster is ready:
+This will take a while, use the following command to know when your cluster is ready:
 
 ```bash
 kops validate cluster
