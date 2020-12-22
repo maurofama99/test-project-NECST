@@ -44,7 +44,7 @@ Then set it in files such as:
 
 ### 3. Deploy services
 
-ATTENTION: to run the following script with microk8s, you need to add `microk8s ` before every kubectl command in all the scripts that generates config maps and deploy services.
+ATTENTION: to run the following script with microk8s, you need to add `microk8s `  before every kubectl command in all the scripts that generates config maps and deploy services.
 
 Run the script `<path-of-repo>/socialNetwork/openshift/scripts/deploy-all-services-and-configurations.sh`
 
