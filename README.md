@@ -51,7 +51,7 @@ Run the script `<path-of-repo>/socialNetwork/openshift/scripts/deploy-all-servic
 
 ### 4. Register users and construct social graphs
 
-- Use `microk8s kubectl -n social-network get svc nginx-thrift` to get the Cluster-IP:NodePort.
+- Use `microk8s kubectl -n social-network get svc nginx-thrift` to get the nginx-thrift NodePort.
 - Paste it at `<path-of-repo>/socialNetwork/scripts/init_social_graph.py:72`
 
 - Register users and construct social graph by running `cd <path-of-repo>/socialNetwork && python3 scripts/init_social_graph.py`.
