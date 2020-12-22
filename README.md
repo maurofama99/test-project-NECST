@@ -23,7 +23,6 @@ su - $USER
 Turn on the dns service:
 
 ```bash
-cd <path-of-repo>/socialNetwork/wrk2
 microk8s enable dns
 ```
 
