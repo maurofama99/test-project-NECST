@@ -68,7 +68,8 @@ if __name__ == '__main__':
     nodes = getNodes(file)
     edges = getEdges(file)
 
-  addr = "http://localhost:30592"
+    
+  addr = "http://localhost:<NodePort>"
   loop = asyncio.get_event_loop()
   future = asyncio.ensure_future(register(addr, nodes))
   loop.run_until_complete(future)
