@@ -102,7 +102,7 @@ We need to create a dedicated S3 bucket for kops to use. We recommend keeping th
 ```bash
 aws s3api create-bucket \
     --bucket prefix-example-com-state-store \
-    --region us-east-1
+    --region <YOUR REGION>
 ```
 Note: We STRONGLY recommend versioning your S3 bucket in case you ever need to revert or recover a previous state store
 ```bash
